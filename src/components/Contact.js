@@ -1,16 +1,16 @@
 import Header from "./Header";
 import Footer from './Footer'
 
-const Basket = () => {
+const Contact = () => {
     return (
         <>
             <Header/>
-            <section id="basket">
-                <h1>Koszyk</h1> 
+            <section id='contact'>
+                <h1>Kontakt</h1> 
             </section>
             <Footer/>
         </>
     )
 }
 
-export default Basket;
+export default Contact;

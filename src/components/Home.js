@@ -1,7 +1,14 @@
-function Home () {
+import Header from "./Header";
+import Footer from './Footer'
+
+const Home = () => {
     return (
         <>
-            <h1>Home</h1> 
+            <Header/>
+            <section id='home'>
+                <h1>Home</h1> 
+            </section>
+            <Footer/>
         </>
     )
 }
